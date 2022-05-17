@@ -27,7 +27,7 @@ nav {
     color: white;
 }
 
-/* About Section Styling  */
+/* ----------------About Section Styling  */
 #welcome-section {
     height: 100vh;
     display: flex;
@@ -45,7 +45,7 @@ nav {
 
 #welcome-section h4 {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
+    font-weight: 400;
     font-size: .7em;
     color: #fb5607;
 }
@@ -55,3 +55,53 @@ nav {
     margin-bottom: 70px;
     text-decoration: underline;
     color: white;
+}
+
+/* ---------------- projects section */
+#projects {
+    max-width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    padding-bottom: 100px;
+
+}
+
+.project {
+    padding: 40px 0;
+}
+
+.project-image {
+    /*   height: 400px;
+    width: 400px; */
+    width: 40vh;
+    height: 40vh;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    background-color: gray;
+    width: 40vh;
+    padding: 10px 0;
+}
+
+.project:hover .project-title {
+    /* background-color: #fb5607; */
+    background-color: black;
+    text-decoration: underline;
+}
+
+#projects a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-title h4 {
+    font-weight: 400;
+}
