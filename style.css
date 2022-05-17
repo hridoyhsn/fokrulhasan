@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     box-sizing: border-box;
-
 }
 
 body {
@@ -27,3 +26,32 @@ nav {
     padding: 10px 25px;
     color: white;
 }
+
+/* About Section Styling  */
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    line-height: 2;
+}
+
+#welcome-section div {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#welcome-section h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size: .7em;
+    color: #fb5607;
+}
+
+#project-head {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-decoration: underline;
+    color: white;
