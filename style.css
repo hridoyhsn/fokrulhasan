@@ -45,7 +45,7 @@ nav {
 
 #welcome-section h4 {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+    font-weight: 100;
     font-size: .7em;
     color: #fb5607;
 }
@@ -69,7 +69,7 @@ nav {
 }
 
 .project {
-    padding: 40px 0;
+    margin: 40px 0;
 }
 
 .project-image {
@@ -95,6 +95,7 @@ nav {
     /* background-color: #fb5607; */
     background-color: black;
     text-decoration: underline;
+    /* color: #fb5607; */
 }
 
 #projects a {
@@ -104,4 +105,53 @@ nav {
 
 .project-title h4 {
     font-weight: 400;
+}
+
+/* *************** Contact section *************** */
+#contacts {
+    background-color: #333333;
+    color: white;
+}
+
+#contacts .title {
+    padding: 100px 0;
+
+}
+
+#contacts h1 {
+    font-size: 3em;
+    padding: 20px 0;
+}
+
+#contacts p {
+    font-weight: 100;
+
+}
+
+#contacts .icons {
+    padding-bottom: 150px;
+}
+
+.icons a {
+    font-size: 2em;
+    padding: 0 20px;
+    color: white;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+
+footer {
+    color: white;
+    background-color: #333333;
+}
+
+footer div {
+    padding: 20px 0;
+}
+
+.icons a:hover {
+    top: -7px;
+
 }
